@@ -1,0 +1,21 @@
+.show {
+    display: block;
+    transition: 800ms;
+    opacity: 1;
+}
+
+.show.active {
+    transform: translateX(100px) scale(0) rotateX(90deg);
+    opacity: 0;
+}
+
+input{
+    background-color: transparent;
+}
+
+.btn {
+    transition: background-color .2s linear,color .2s linear,border-color .2s linear;
+    position: relative;
+    overflow: hidden;
+}
+
